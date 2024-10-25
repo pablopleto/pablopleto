@@ -1,0 +1,47 @@
+html {
+    
+}
+
+.titulo {
+    color: pink;
+    background-color: blue;
+    align-items: center;  
+    display: flex; 
+    min-height: 200px;
+    font-family: '8BIT WONDER', sans-serif;
+    font-size: 100px;
+    align-items: start;
+}
+
+.miku{
+    display:flex;
+    flex: 2;
+    max-width: 200px;
+}
+.navbar {
+   display: flex;
+   flex:1;
+   justify-content: start;
+   align-items: center;
+   margin: 50px;
+   background-color: rgb(255, 0, 0);
+}
+.mainbotton {
+    max-height: 100px;
+    padding: 20px;
+    margin: 50px;
+    font-weight: 500;
+    font-family:'8BIT WONDER';
+    font-size: 30px;
+    background-color: rgb(255, 0, 0);
+    color: #ffffff; 
+    cursor:zoom-in
+}
+.mainbotton:hover{
+    background-color: rgb(15, 204, 160); 
+    border-bottom: 2px magenta;
+    border-radius: 15px;
+
+}
+
+
